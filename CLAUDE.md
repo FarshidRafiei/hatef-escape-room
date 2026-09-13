@@ -51,4 +51,3 @@ Copy `.env.example` → `.env.local`. Everything is optional — the game is ful
 - Commit messages are in Persian.
 - Shared visual primitives are plain CSS classes in [app/globals.css](app/globals.css) — `.panel`, `.btn-glow`, `.text-glow`, `.scanlines`, `.grain`, `.shake` — used alongside the custom Tailwind tokens (`ink-*`, `cyanGlow`, `amberGlow`, `dangerGlow`, `shadow-glow`, and the `pulseGlow`/`flicker`/`scan`/`float` animations) in [tailwind.config.ts](tailwind.config.ts).
 - Path alias `@/*` maps to the repo root.
-- `siavash.py` is an unrelated scratch file, not part of the app.
